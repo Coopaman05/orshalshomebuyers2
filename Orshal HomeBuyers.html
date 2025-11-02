@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Orshal's HomeBuyers — Fast Cash Offers | Trusted Investor Buyers</title>
+  <meta name="description" content="Orshal HomeBuyers - experienced cash buyers. We buy houses in any condition. Fast, transparent offers within 24 hours. Sell as-is, no fees.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#0b1220; /* deep navy */
+      --card:#0f1724;
+      --muted:#9aa4b2;
+      --gold:#d4a659; /* premium accent */
+      --accent:#0ea5a1; /* teal for trust */
+      --glass: rgba(255,255,255,0.04);
+      --radius:14px;
+      --max-width:1200px;
+      font-family:Inter,system-ui,-apple-system,'Segoe UI',Roboto,'Helvetica Neue',Arial;
+      color:#e6eef3;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;background:linear-gradient(180deg,var(--bg) 0%, #07101a 100%);}
+    a{color:inherit}
+
+    .wrap{max-width:var(--max-width);margin:0 auto;padding:40px 24px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .brand{display:flex;align-items:center;gap:14px}
+    .logo{width:56px;height:56px;border-radius:12px;background:linear-gradient(135deg,var(--gold),#b5823f);display:flex;align-items:center;justify-content:center;color:#08121a;font-weight:800;font-family:'Playfair Display',serif;box-shadow:0 8px 30px rgba(0,0,0,0.6)}
+    h1.brand-title{margin:0;font-size:1.05rem}
+    .tag{color:var(--muted);font-size:0.85rem}
+
+    nav{display:flex;gap:14px;align-items:center}
+    nav a{color:var(--muted);font-weight:600}
+    .cta{background:var(--gold);color:#07101a;padding:10px 14px;border-radius:12px;font-weight:800;border:0;cursor:pointer}
+
+    /* Hero */
+    .hero{display:grid;grid-template-columns:1fr 420px;gap:28px;align-items:center;margin-top:36px}
+    .hero-left{padding:28px;background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);border-radius:18px}
+    .kicker{display:inline-block;padding:8px 12px;border-radius:999px;background:var(--glass);color:var(--muted);font-weight:700;font-size:13px}
+    h2{font-family:'Playfair Display',serif;margin:16px 0 10px;font-size:36px;color:#fff;line-height:1.02}
+    p.lead{color:var(--muted);margin:0 0 18px;font-size:15px}
+
+    .stats{display:flex;gap:16px;margin-top:14px}
+    .stat{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:12px;border-radius:10px;text-align:center;min-width:110px}
+    .stat strong{display:block;font-size:18px;color:var(--gold);}
+    .stat span{display:block;font-size:13px;color:var(--muted)}
+
+    /* Offer card */
+    .offer{background:linear-gradient(180deg,#07121a,#0b1620);padding:22px;border-radius:14px;box-shadow:0 20px 60px rgba(0,0,0,0.6);border:1px solid rgba(255,255,255,0.03)}
+    .offer h3{margin:0 0 8px;color:var(--gold)}
+    label{display:block;font-size:13px;color:var(--muted);margin-top:10px}
+    input,textarea,select{width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:inherit}
+    .submit{margin-top:12px;background:var(--gold);color:#07121a;border:0;padding:12px;border-radius:10px;font-weight:800;width:100%;cursor:pointer}
+
+    /* trust strip */
+    .trust-strip{display:flex;gap:12px;align-items:center;justify-content:center;margin-top:20px}
+    .trust-item{display:flex;gap:8px;align-items:center;color:var(--muted);font-weight:600}
+
+    /* Features */
+    .features{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}
+    .feature{background:linear-gradient(90deg,rgba(255,255,255,0.02),transparent);padding:18px;border-radius:12px}
+    .feature h4{margin:0 0 8px;color:var(--gold)}
+    .feature p{margin:0;color:var(--muted)}
+
+    /* Testimonials */
+    .testimonials{margin-top:28px;display:flex;gap:12px}
+    .testimonial{background:linear-gradient(180deg,rgba(255,255,255,0.02),transparent);padding:16px;border-radius:10px;border-left:4px solid rgba(212,166,89,0.12)}
+
+    footer{margin-top:48px;padding:28px;text-align:center;color:var(--muted)}
+
+    /* Responsive */
+    @media(max-width:980px){
+      .hero{grid-template-columns:1fr}
+      .hero-right{order:-1}
+      .features{grid-template-columns:1fr}
+    }
+
+    /* subtle animations */
+    .fade-in{opacity:0;transform:translateY(8px);transition:all 520ms cubic-bezier(.2,.9,.3,1)}
+    .fade-in.show{opacity:1;transform:none}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <img src="Logo3.png" alt="Orshal's Home Buyers" style="border-radius: 6px; width: 75px;">
+        <div>
+          <div class="brand-title">Orshal's HomeBuyers</div>
+          <div class="tag">Trusted cash buyers • Minnesota & surrounding areas</div>
+        </div>
+      </div>
+      <nav>
+        <a href="https://www.facebook.com/profile.php?id=61583144181737&sk=" target="_blank" rel="noopener noreferrer">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" 
+        alt="Facebook Page" 
+        style="width:40px; height:40px;">
+        </a>
+        <a href="#how">How it Works</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Get Offer</a>
+        <button class="cta" onclick="document.getElementById('name').focus()">Get Offer</button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-left fade-in" id="hero-left">
+          <span class="kicker">We buy houses — any condition</span>
+          <h2>Fast cash. Clear terms. Local investors who care.</h2>
+          <p class="lead">Orshal's HomeBuyers offers experienced investor solutions for homeowners who want speed, certainty, and fairness. No repairs, no realtor fees — just straightforward cash offers within 24 hours.</p>
+
+          <div class="stats" aria-hidden>
+            <div class="stat"><strong>24 hrs</strong><span>Offer Time</span></div>
+            <div class="stat"><strong>7 days</strong><span>Possible Close</span></div>
+            <div class="stat"><strong>100%</strong><span>As‑Is Purchases</span></div>
+          </div>
+
+          <div class="trust-strip" aria-hidden>
+            <div class="trust-item">🔒 Secure Process</div>
+            <div class="trust-item">🤝 Local Decision Makers</div>
+            <div class="trust-item">📜 Clear, Written Offers</div>
+          </div>
+
+          <div class="features" id="services">
+            <div class="feature">
+              <h4>Foreclosure Relief</h4>
+              <p>Quick options to stop foreclosure and get cash fast.</p>
+            </div>
+            <div class="feature">
+              <h4>Divorce & Probate</h4>
+              <p>Compassionate, straightforward closings when life gets complicated.</p>
+            </div>
+            <div class="feature">
+              <h4>Inherited Houses</h4>
+              <p>Simplified sales so families can move forward without hassle.</p>
+            </div>
+          </div>
+        </div>
+
+        <aside class="offer hero-right fade-in" id="offer-card">
+          <h3>Get a cash offer — 24‑hour response</h3>
+          <form id="offerForm" onsubmit="return sendEmail(event)">
+  <label for="name">Full name</label>
+  <input id="name" name="name" required autocomplete="name">
+
+  <label for="phone">Phone</label>
+  <input id="phone" name="phone" required autocomplete="tel">
+
+  <label for="address">Property address</label>
+  <input id="address" name="address" required autocomplete="street-address">
+
+  <label for="condition">Situation</label>
+  <select id="condition" name="condition">
+    <option>Foreclosure</option>
+    <option>Divorce</option>
+    <option>Inherited</option>
+    <option>Move-out / Vacant</option>
+    <option>Repairs needed</option>
+  </select>
+
+  <label for="notes">Notes (optional)</label>
+  <textarea id="notes" name="notes" rows="3" placeholder="Any details we should know"></textarea>
+
+  <button class="submit" type="submit">Request My Cash Offer</button>
+  <div id="formMsg" style="display:none;margin-top:10px;color:var(--gold);font-weight:700"></div>
+</form>
+
+          <div style="margin-top:14px;color:var(--muted);font-size:13px">Prefer to talk? Call <strong style="color:var(--gold)">(612) 600-0169</strong></div>
+        </aside>
+      </section>
+
+      <section class="fade-in" id="proof" style="margin-top:28px">
+        <h3 style="color:var(--gold);margin-bottom:12px">Investor-Grade Process — Built for Sellers</h3>
+        <div style="display:flex;gap:16px;flex-wrap:wrap">
+          <div style="flex:1;min-width:280px;background:var(--card);padding:18px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.6)">
+            <h4 style="margin-top:0;color:var(--accent)">Transparent Offers</h4>
+            <p class="muted" style="color:var(--muted)">Every offer includes a clear breakdown of price, closing costs, and timeline — no surprises.</p>
+          </div>
+          <div style="flex:1;min-width:280px;background:var(--card);padding:18px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.6)">
+            <h4 style="margin-top:0;color:var(--accent)">Cash-Ready Funding</h4>
+            <p class="muted" style="color:var(--muted)">We have investor capital available to close fast when you need certainty.</p>
+          </div>
+          <div style="flex:1;min-width:280px;background:var(--card);padding:18px;border-radius:12px;box-shadow:0 12px 30px rgba(0,0,0,0.6)">
+            <h4 style="margin-top:0;color:var(--accent)">Title & Closing Support</h4>
+            <p class="muted" style="color:var(--muted)">We coordinate title, closing, and any lien payoffs to simplify the sale.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="fade-in" style="margin-top:28px">
+        <h3 style="color:var(--gold);margin-bottom:12px">What Sellers Say</h3>
+        <div class="testimonials">
+          <div class="testimonial"><strong>Anna T.</strong> — "Orshal's HomeBuyers made a complex probate sale painless. Quick offer, clear steps, and closed in two weeks."</div>
+          <div class="testimonial"><strong>Mark R.</strong> — "I was behind on taxes and they helped me get out clean — professional and fair."</div>
+        </div>
+      </section>
+
+      <section id="contact" class="fade-in" style="margin-top:32px">
+        <div style="display:flex;gap:18px;flex-wrap:wrap;align-items:center;justify-content:space-between">
+          <div style="flex:1;min-width:280px">
+            <h3 style="color:var(--gold);margin:0">Ready for a fast, fair offer?</h3>
+            <p style="color:var(--muted);margin:6px 0">Get a transparent cash offer — we respond within 24 hours. Trusted, investor-led process.</p>
+          </div>
+          <div style="min-width:300px">
+            <button class="cta" onclick="document.getElementById('name').focus()">Request Your Offer</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer>
+      <div style="max-width:var(--max-width);margin:0 auto;padding-top:18px">
+        <div style="display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap">
+          <div style="color:var(--muted)">© <span id="yr"></span> Orshal's HomeBuyers</div>
+          <div style="color:var(--muted)">|</div>
+          <div style="color:var(--muted)"><a href="#">Privacy</a></div>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear();
+
+    // animate fade-ins on load/scroll
+    function reveal(){
+      const els = document.querySelectorAll('.fade-in');
+      for(const el of els){
+        const r = el.getBoundingClientRect();
+        if(r.top < window.innerHeight - 60) el.classList.add('show');
+      }
+    }
+    window.addEventListener('scroll', reveal);
+    window.addEventListener('load', ()=>{ reveal(); setTimeout(reveal,600); });
+
+    function sendEmail(event) {
+  event.preventDefault();
+  
+  const name = document.getElementById("name").value;
+  const phone = document.getElementById("phone").value;
+  const address = document.getElementById("address").value;
+  const condition = document.getElementById("condition").value;
+  const notes = document.getElementById("notes").value;
+
+  const subject = `New Cash Offer Request from ${name}`;
+  const body = 
+    `Name: ${name}%0D%0A` +
+    `Phone: ${phone}%0D%0A` +
+    `Address: ${address}%0D%0A` +
+    `Situation: ${condition}%0D%0A` +
+    `Notes: ${notes}`;
+
+  window.location.href = `mailto:Orshalshome@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`;
+  
+  document.getElementById("formMsg").style.display = "block";
+  document.getElementById("formMsg").textContent = "Opening your email app...";
+}
+  </script>
+</body>
+</html>
